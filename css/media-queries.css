@@ -17,20 +17,17 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 /* @media screen and (min-width:1200px) { /* ... */
+
 *{
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     align-items: center;
     background-color: white;
     flex-direction: column;
     font-family: Arial, sans-serif;
-
-}
-
-ul {
-
 }
 
 nav {
@@ -41,6 +38,11 @@ div {
     width: 100%;
 }
 
+div>a {
+    text-decoration: none;
+    color: black;
+}
+
 .alert-info {
     background-color: lightblue;
     border: lightgrey solid .1em;
@@ -49,44 +51,34 @@ div {
     width: 100%;
 }
 
-.hidden-on-desktop {
-
-}
-
-#main {
-
-}
-
-div a {
-
-}
-
 .nav-links {
-    flex-direction: column;
     list-style: none;
     text-align: center;
     width: 100%;
 }
 
 nav>ul {
-
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;*/
+    align-items: stretch;
 }
 
 nav>ul>li>a {
     display: block;
     padding: 1em;
     font-size: 1em;
-    margin: 1em 0;
+    margin: 1em;
     background-color: lightgrey;
 }
 
 .header-img {
-    text-align: center;
-    width: 100%;
+
 }
 
-.main {
-
+img {
+    width: 100%;
+    height: auto;
 }
 
 .sub-section {
@@ -95,8 +87,7 @@ nav>ul>li>a {
 
 h1 {
     text-align: center;
-    font-size: 5em;
-    margin: 0;
+    font-size: 40px;
 }
 
 h2 {
@@ -104,7 +95,8 @@ h2 {
 }
 
 #social-media-links {
-
+    float: right;
+    width: auto;
 }
 
 section {
@@ -113,18 +105,17 @@ section {
 
 footer {
     display: flex;
-    justify-content: space-between;
-    margin: 6em 0;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 5em;
 }
 
-footer>p {
-    margin-bottom: 0;
-}
 
-.fas fa-hashtag {
-    font-size: 3em;
-    margin: 0 1em;
-}
+/*.fas fa-hashtag {*/
+/*    font-size: 5em;*/
+/*    margin: 0 1em;*/
+/*}*/
 /** {
     margin: 0;
     padding: 0;

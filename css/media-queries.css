@@ -105,9 +105,12 @@ footer {
     margin-bottom: 1em;
 }
 
+#social-media-links {
+    margin-left: 50em;
+}
+
 .fa-hashtag {
     font-size: 3em;
-    margin-left: 3em;
 }
 
 @media screen and (min-width: 992px) {
@@ -149,16 +152,18 @@ footer {
         margin-right: auto;
     }
 
-    .sub-section {
-        width: 45%;
-        margin-left: auto;
-    }
-
     section {
         display: inline-block;
     }
 
     .sub-section {
         display: inline-block;
+        width: 45%;
+        margin-left: auto;
+    }
+
+    footer {
+        margin: fill;
+        padding-top: 10em;
     }
 }

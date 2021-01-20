@@ -126,8 +126,17 @@ footer {
         justify-content: flex-start;
         margin: 0 0;
         padding: 0 0;
+        margin-right: auto;
     }
+     span {
+         font-size: 40px;
+     }
 
+    ul {
+        justify-content: flex-end;
+        align-content: flex-end;
+        margin-left: 30em;
+    }
     nav {
         margin-left: 3em;
     }

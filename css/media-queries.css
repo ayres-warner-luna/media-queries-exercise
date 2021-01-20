@@ -113,12 +113,26 @@ footer {
     margin-bottom: 5em;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:992px) {
     body {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
+    h1{
+        float: left;
+    }
+    nav {
+        float: right;
+    }
+    .nav-links{
+        display: flex;
+    }
+    nav>ul>li>a {
+        background-color: white;
+
+    }
+
 
 
 

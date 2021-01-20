@@ -153,12 +153,18 @@ footer {
 
     section {
         display: inline-block;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 
     .sub-section {
         display: inline-block;
         width: 45%;
         margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 
     footer {

@@ -119,7 +119,8 @@ footer {
     }
 
     body {
-        margin: 1.5em;
+        margin: 2em;
+        display: inline-block;
     }
 
     h1 {
@@ -139,9 +140,12 @@ footer {
         align-content: flex-end;
         margin-left: 30em;
         box-sizing: content-box;
+        width: 50%;
     }
     nav {
-        margin-left: 3em;
+        margin-left: 35em;
+        width: 50%;
+
     }
 
     .nav-links {

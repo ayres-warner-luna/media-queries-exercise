@@ -108,6 +108,8 @@ footer {
 
 .fa-skull {
     font-size: 3em;
+    color: black;
+    padding: .5em;
 }
 
 @media screen and (min-width: 992px) {

@@ -52,6 +52,7 @@ div>a {
     padding: 1em;
 }
 
+
 .nav-links {
     list-style: none;
     text-align: center;
@@ -114,25 +115,42 @@ footer {
 }
 
 @media screen and (min-width:992px) {
-    body {
+
+    .hidden-on-desktop {
+        display: block;
+    }
+
+    h1{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: flex-start;
         justify-content: flex-start;
     }
-    h1{
-        float: left;
-    }
     nav {
-        float: right;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-end;
     }
     .nav-links{
         display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
     }
     nav>ul>li>a {
         background-color: white;
-
     }
 
+    .main {
+        box-sizing: border-box;
+        padding: 0 30%;
+        float: left;
+    }
+
+    .sub-section {
+        box-sizing: border-box;
+        padding: 0 30%;
+        float: right;
+    }
 
 
 

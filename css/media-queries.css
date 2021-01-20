@@ -33,11 +33,6 @@ nav {
     width: 100%;
 }
 
-div {
-    width: 100%;
-
-}
-
 .alert-info {
     background-color: lightblue;
     border: lightgrey solid .1em;
@@ -95,7 +90,7 @@ h2 {
 }
 
 section {
-  /*  display: inline-block; */
+    display: inline-block;
 }
 
 footer {
@@ -106,7 +101,9 @@ footer {
 }
 
 #social-media-links {
-    margin-left: 50em;
+    margin-left: 30em;
+    align-content: flex-end;
+    justify-content: flex-end;
 }
 
 .fa-hashtag {
@@ -127,10 +124,12 @@ footer {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
+        margin: 0 0;
+        padding: 0 0;
     }
 
     nav {
-        margin-right: 3em;
+        margin-left: 3em;
     }
 
     .nav-links {
